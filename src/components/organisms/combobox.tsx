@@ -8,7 +8,7 @@ import {
   InputGroupAddon,
   InputGroupButton,
   InputGroupInput,
-} from "@/components/atoms/input-group"
+} from "@/components/molecules/input-group"
 import { IconChevronDown, IconX, IconCheck } from "@tabler/icons-react"
 
 const Combobox = ComboboxPrimitive.Root

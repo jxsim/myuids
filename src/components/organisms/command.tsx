@@ -14,7 +14,7 @@ import {
 import {
   InputGroup,
   InputGroupAddon,
-} from "@/components/atoms/input-group"
+} from "@/components/molecules/input-group"
 import { IconSearch, IconCheck } from "@tabler/icons-react"
 
 function Command({
