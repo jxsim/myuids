@@ -18,7 +18,7 @@ import {
 } from "./popover"
 
 const meta = {
-  title: "UI/Popover",
+  title: "Organisms/Popover",
   component: Popover,
   parameters: {
     layout: "centered",

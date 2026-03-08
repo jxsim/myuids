@@ -3,7 +3,7 @@ import type { Meta, StoryObj } from "@storybook/react-vite"
 import { RadioGroup, RadioGroupItem } from "./radio-group"
 
 const meta = {
-  title: "UI/RadioGroup",
+  title: "Atoms/RadioGroup",
   component: RadioGroup,
   parameters: {
     layout: "centered",

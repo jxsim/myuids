@@ -16,7 +16,7 @@ import { ButtonGroup, ButtonGroupSeparator, ButtonGroupText } from "./button-gro
 import { Button } from "@/components/atoms/button"
 
 const meta = {
-  title: "UI/ButtonGroup",
+  title: "Molecules/ButtonGroup",
   component: ButtonGroup,
   parameters: {
     layout: "centered",

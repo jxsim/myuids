@@ -22,7 +22,7 @@ import { Input } from "@/components/atoms/input"
 import { Label } from "@/components/atoms/label"
 
 const meta = {
-  title: "UI/Drawer",
+  title: "Organisms/Drawer",
   component: Drawer,
   parameters: {
     layout: "centered",

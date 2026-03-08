@@ -3,7 +3,7 @@ import type { Meta, StoryObj } from "@storybook/react-vite"
 import { NativeSelect, NativeSelectOption, NativeSelectOptGroup } from "./native-select"
 
 const meta = {
-  title: "UI/NativeSelect",
+  title: "Molecules/NativeSelect",
   component: NativeSelect,
   parameters: {
     layout: "centered",

@@ -11,7 +11,7 @@ import {
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "./tabs"
 
 const meta = {
-  title: "UI/Tabs",
+  title: "Organisms/Tabs",
   component: Tabs,
   parameters: {
     layout: "centered",

@@ -28,7 +28,7 @@ import {
 } from "./context-menu"
 
 const meta = {
-  title: "UI/ContextMenu",
+  title: "Organisms/ContextMenu",
   component: ContextMenu,
   parameters: {
     layout: "centered",

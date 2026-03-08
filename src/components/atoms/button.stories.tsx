@@ -9,7 +9,7 @@ import {
 import { Button } from "./button"
 
 const meta = {
-  title: "UI/Button",
+  title: "Atoms/Button",
   component: Button,
   parameters: {
     layout: "centered",

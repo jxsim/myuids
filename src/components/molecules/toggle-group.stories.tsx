@@ -15,7 +15,7 @@ import {
 import { ToggleGroup, ToggleGroupItem } from "./toggle-group"
 
 const meta = {
-  title: "UI/ToggleGroup",
+  title: "Molecules/ToggleGroup",
   component: ToggleGroup,
   parameters: {
     layout: "centered",

@@ -14,7 +14,7 @@ import {
 import { Toggle } from "./toggle"
 
 const meta = {
-  title: "UI/Toggle",
+  title: "Atoms/Toggle",
   component: Toggle,
   parameters: {
     layout: "centered",

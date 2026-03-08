@@ -27,7 +27,7 @@ import {
 } from "./command"
 
 const meta = {
-  title: "UI/Command",
+  title: "Organisms/Command",
   component: Command,
   parameters: {
     layout: "centered",

@@ -13,7 +13,7 @@ import {
 } from "./table"
 
 const meta = {
-  title: "UI/Table",
+  title: "Organisms/Table",
   component: Table,
   parameters: {
     layout: "padded",

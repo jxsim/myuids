@@ -11,7 +11,7 @@ import {
 } from "./avatar"
 
 const meta = {
-  title: "UI/Avatar",
+  title: "Atoms/Avatar",
   component: Avatar,
   parameters: {
     layout: "centered",

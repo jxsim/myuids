@@ -17,7 +17,7 @@ import {
 } from "./field"
 
 const meta = {
-  title: "UI/Field",
+  title: "Molecules/Field",
   component: Field,
   parameters: {
     layout: "centered",

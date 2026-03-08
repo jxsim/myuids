@@ -19,7 +19,7 @@ import {
 } from "./navigation-menu"
 
 const meta = {
-  title: "UI/NavigationMenu",
+  title: "Organisms/NavigationMenu",
   component: NavigationMenu,
   parameters: {
     layout: "centered",

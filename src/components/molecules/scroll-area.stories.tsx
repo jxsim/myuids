@@ -4,7 +4,7 @@ import { ScrollArea, ScrollBar } from "./scroll-area"
 import { Separator } from "@/components/atoms/separator"
 
 const meta = {
-  title: "UI/ScrollArea",
+  title: "Molecules/ScrollArea",
   component: ScrollArea,
   parameters: {
     layout: "centered",

@@ -17,7 +17,7 @@ import { Input } from "@/components/atoms/input"
 import { Label } from "@/components/atoms/label"
 
 const meta = {
-  title: "UI/Dialog",
+  title: "Organisms/Dialog",
   component: Dialog,
   parameters: {
     layout: "centered",

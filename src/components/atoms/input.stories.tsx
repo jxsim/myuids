@@ -4,7 +4,7 @@ import { Label } from "./label"
 import { Input } from "./input"
 
 const meta = {
-  title: "UI/Input",
+  title: "Atoms/Input",
   component: Input,
   parameters: {
     layout: "centered",

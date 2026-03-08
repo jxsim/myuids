@@ -10,7 +10,7 @@ import { Button } from "@/components/atoms/button"
 import { HoverCard, HoverCardContent, HoverCardTrigger } from "./hover-card"
 
 const meta = {
-  title: "UI/HoverCard",
+  title: "Molecules/HoverCard",
   component: HoverCard,
   parameters: {
     layout: "centered",

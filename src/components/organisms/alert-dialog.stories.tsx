@@ -16,7 +16,7 @@ import {
 import { Button } from "@/components/atoms/button"
 
 const meta = {
-  title: "UI/AlertDialog",
+  title: "Organisms/AlertDialog",
   component: AlertDialog,
   parameters: {
     layout: "centered",

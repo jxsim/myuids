@@ -9,7 +9,7 @@ import {
 import { Badge } from "./badge"
 
 const meta = {
-  title: "UI/Badge",
+  title: "Atoms/Badge",
   component: Badge,
   parameters: {
     layout: "centered",

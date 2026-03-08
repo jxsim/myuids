@@ -20,7 +20,7 @@ import {
 } from "./input-group"
 
 const meta = {
-  title: "UI/InputGroup",
+  title: "Molecules/InputGroup",
   component: InputGroup,
   parameters: {
     layout: "centered",

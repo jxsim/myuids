@@ -18,7 +18,7 @@ import {
 } from "./empty"
 
 const meta = {
-  title: "UI/Empty",
+  title: "Molecules/Empty",
   component: Empty,
   parameters: {
     layout: "centered",

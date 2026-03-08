@@ -12,7 +12,7 @@ import { Button } from "@/components/atoms/button"
 import { Toaster } from "./sonner"
 
 const meta = {
-  title: "UI/Sonner",
+  title: "Organisms/Sonner",
   component: Toaster,
   parameters: {
     layout: "centered",

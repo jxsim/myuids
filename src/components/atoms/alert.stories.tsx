@@ -10,7 +10,7 @@ import { Alert, AlertTitle, AlertDescription, AlertAction } from "./alert"
 import { Button } from "./button"
 
 const meta = {
-  title: "UI/Alert",
+  title: "Atoms/Alert",
   component: Alert,
   parameters: {
     layout: "centered",
