@@ -6,7 +6,7 @@ import {
   IconCloud,
   IconCreditCard,
   IconKeyboard,
-  IconLogOut,
+  IconLogout,
   IconMoon,
   IconPlus,
   IconSettings,
@@ -75,7 +75,7 @@ export const Playground: Story = {
         </DropdownMenuItem>
         <DropdownMenuSeparator />
         <DropdownMenuItem variant="destructive">
-          <IconLogOut />
+          <IconLogout />
           Log out
           <DropdownMenuShortcut>⌘Q</DropdownMenuShortcut>
         </DropdownMenuItem>

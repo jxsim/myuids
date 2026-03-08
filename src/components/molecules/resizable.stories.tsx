@@ -12,6 +12,9 @@ const meta = {
   parameters: {
     layout: "padded",
   },
+  args: {
+    orientation: "horizontal" as const,
+  },
 } satisfies Meta<typeof ResizablePanelGroup>
 
 export default meta
@@ -20,9 +23,6 @@ type Story = StoryObj<typeof meta>
 // --- Playground ---
 
 export const Playground: Story = {
-  args: {
-    direction: "horizontal",
-  },
   render: (args) => (
     <ResizablePanelGroup
       {...args}
@@ -52,7 +52,7 @@ export const Playground: Story = {
 export const HorizontalSplit: Story = {
   render: () => (
     <ResizablePanelGroup
-      direction="horizontal"
+      orientation="horizontal"
       className="min-h-48 max-w-2xl rounded-lg border"
     >
       <ResizablePanel defaultSize={25}>
@@ -75,7 +75,7 @@ export const HorizontalSplit: Story = {
 export const VerticalSplit: Story = {
   render: () => (
     <ResizablePanelGroup
-      direction="vertical"
+      orientation="vertical"
       className="min-h-64 max-w-2xl rounded-lg border"
     >
       <ResizablePanel defaultSize={40}>
@@ -98,7 +98,7 @@ export const VerticalSplit: Story = {
 export const ThreePanels: Story = {
   render: () => (
     <ResizablePanelGroup
-      direction="horizontal"
+      orientation="horizontal"
       className="min-h-64 max-w-3xl rounded-lg border"
     >
       <ResizablePanel defaultSize={20}>
@@ -108,7 +108,7 @@ export const ThreePanels: Story = {
       </ResizablePanel>
       <ResizableHandle withHandle />
       <ResizablePanel defaultSize={55}>
-        <ResizablePanelGroup direction="vertical">
+        <ResizablePanelGroup orientation="vertical">
           <ResizablePanel defaultSize={60}>
             <div className="flex h-full items-center justify-center p-4">
               <span className="text-sm text-muted-foreground">Editor</span>
@@ -137,7 +137,7 @@ export const ThreePanels: Story = {
 export const WithoutHandleIndicator: Story = {
   render: () => (
     <ResizablePanelGroup
-      direction="horizontal"
+      orientation="horizontal"
       className="min-h-48 max-w-2xl rounded-lg border"
     >
       <ResizablePanel defaultSize={50}>

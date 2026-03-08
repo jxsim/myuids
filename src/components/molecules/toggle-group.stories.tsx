@@ -20,6 +20,9 @@ const meta = {
   parameters: {
     layout: "centered",
   },
+  args: {
+    type: "single" as const,
+  },
   argTypes: {
     variant: {
       control: "select",

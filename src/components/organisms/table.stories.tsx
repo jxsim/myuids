@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from "@storybook/react-vite"
-import { IconArrowUp, IconArrowDown, IconArrowsUpDown } from "@tabler/icons-react"
+import { IconArrowUp, IconArrowsUpDown } from "@tabler/icons-react"
 
 import {
   Table,

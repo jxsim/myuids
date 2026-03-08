@@ -3,7 +3,6 @@ import { IconInfoCircle } from "@tabler/icons-react"
 
 import { Button } from "@/components/atoms/button"
 import { Input } from "@/components/atoms/input"
-import { Label } from "@/components/atoms/label"
 import {
   Field,
   FieldDescription,
