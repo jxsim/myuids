@@ -2,6 +2,7 @@ import * as React from "react"
 
 import { cn } from "@/lib/utils"
 import { Button } from "@/components/atoms/button"
+import { Icon } from "@/components/atoms/icon"
 import { IconChevronLeft, IconChevronRight, IconDots } from "@tabler/icons-react"
 
 function Pagination({ className, ...props }: React.ComponentProps<"nav">) {
@@ -73,7 +74,7 @@ function PaginationPrevious({
       className={cn("pl-1.5!", className)}
       {...props}
     >
-      <IconChevronLeft data-icon="inline-start" />
+      <Icon as={IconChevronLeft} placement="start" />
       <span className="hidden sm:block">{text}</span>
     </PaginationLink>
   )
@@ -92,7 +93,7 @@ function PaginationNext({
       {...props}
     >
       <span className="hidden sm:block">{text}</span>
-      <IconChevronRight data-icon="inline-end" />
+      <Icon as={IconChevronRight} placement="end" />
     </PaginationLink>
   )
 }

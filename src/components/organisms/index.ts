@@ -1,4 +1,7 @@
 export * from "./accordion"
+export * from "./container"
+export * from "./panel"
+export * from "./section"
 export * from "./alert-dialog"
 export * from "./calendar"
 export * from "./card"

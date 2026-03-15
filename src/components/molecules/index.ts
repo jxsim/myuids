@@ -1,4 +1,5 @@
 export * from "./breadcrumb"
+export * from "./stack"
 export * from "./button-group"
 export * from "./empty"
 export * from "./field"

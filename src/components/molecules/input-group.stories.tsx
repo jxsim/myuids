@@ -11,6 +11,13 @@ import {
 import { useState } from "react"
 
 import {
+  Field,
+  FieldDescription,
+  FieldError,
+  FieldGroup,
+  FieldLabel,
+} from "@/components/molecules/field"
+import {
   InputGroup,
   InputGroupAddon,
   InputGroupButton,
@@ -157,6 +164,111 @@ export const BlockAddons: Story = {
           Markdown supported
         </InputGroupAddon>
       </InputGroup>
+    </div>
+  ),
+}
+
+// --- Sizes ---
+
+export const Sizes: Story = {
+  render: () => (
+    <div className="flex w-72 flex-col gap-4">
+      <div className="flex flex-col gap-1.5">
+        <span className="text-xs text-muted-foreground">Default (h-8)</span>
+        <InputGroup size="default">
+          <InputGroupAddon align="inline-start">
+            <IconSearch />
+          </InputGroupAddon>
+          <InputGroupInput placeholder="Search..." />
+        </InputGroup>
+      </div>
+      <div className="flex flex-col gap-1.5">
+        <span className="text-xs text-muted-foreground">Small (h-7)</span>
+        <InputGroup size="sm">
+          <InputGroupAddon align="inline-start">
+            <IconSearch />
+          </InputGroupAddon>
+          <InputGroupInput placeholder="Search..." />
+        </InputGroup>
+      </div>
+      <div className="flex flex-col gap-1.5">
+        <span className="text-xs text-muted-foreground">Small with button</span>
+        <InputGroup size="sm">
+          <InputGroupAddon align="inline-start">
+            <IconAt />
+          </InputGroupAddon>
+          <InputGroupInput placeholder="username" />
+          <InputGroupAddon align="inline-end">
+            <InputGroupButton size="icon-xs" aria-label="Clear">
+              <IconX />
+            </InputGroupButton>
+          </InputGroupAddon>
+        </InputGroup>
+      </div>
+    </div>
+  ),
+}
+
+// --- In Field ---
+
+export const InField: Story = {
+  render: () => (
+    <div className="w-80">
+      <FieldGroup>
+        <Field>
+          <FieldLabel htmlFor="if-username" required>
+            Username
+          </FieldLabel>
+          <InputGroup>
+            <InputGroupAddon align="inline-start">
+              <IconAt />
+            </InputGroupAddon>
+            <InputGroupInput id="if-username" placeholder="janedoe" />
+          </InputGroup>
+          <FieldDescription>Your public handle on the platform.</FieldDescription>
+        </Field>
+        <Field>
+          <FieldLabel htmlFor="if-website">Website</FieldLabel>
+          <InputGroup>
+            <InputGroupAddon align="inline-start">
+              <InputGroupText>https://</InputGroupText>
+            </InputGroupAddon>
+            <InputGroupInput id="if-website" type="url" placeholder="example.com" />
+            <InputGroupAddon align="inline-end">
+              <IconLink />
+            </InputGroupAddon>
+          </InputGroup>
+        </Field>
+        <Field data-invalid="true">
+          <FieldLabel htmlFor="if-search" required>
+            Search query
+          </FieldLabel>
+          <InputGroup>
+            <InputGroupAddon align="inline-start">
+              <IconSearch />
+            </InputGroupAddon>
+            <InputGroupInput
+              id="if-search"
+              aria-invalid="true"
+              defaultValue="<script>"
+            />
+          </InputGroup>
+          <FieldError>Query contains invalid characters.</FieldError>
+        </Field>
+        <Field>
+          <FieldLabel htmlFor="if-message">Message</FieldLabel>
+          <InputGroup>
+            <InputGroupTextarea
+              id="if-message"
+              placeholder="Write your message..."
+              rows={3}
+            />
+            <InputGroupAddon align="block-end" className="border-t text-xs">
+              Markdown supported
+            </InputGroupAddon>
+          </InputGroup>
+        </Field>
+      </FieldGroup>
     </div>
   ),
 }
