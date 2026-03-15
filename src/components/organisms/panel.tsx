@@ -6,11 +6,11 @@ import { cn } from "@/lib/utils"
 const panelVariants = cva("w-full rounded-xl", {
   variants: {
     variant: {
-      default: "bg-card text-card-foreground",
-      muted: "bg-muted/50 text-foreground",
+      default: "bg-card text-card-foreground shadow-xs ring-1 ring-foreground/8",
+      muted: "bg-muted/50 text-foreground ring-1 ring-inset ring-border/60",
       bordered: "border border-border bg-background text-foreground",
       inset: "bg-muted/30 ring-1 ring-inset ring-border/60 text-foreground",
-      raised: "bg-card text-card-foreground shadow-md",
+      raised: "bg-card text-card-foreground shadow-md ring-1 ring-foreground/8",
     },
     padding: {
       none: "",
