@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from "@storybook/react-vite"
-import { IconInfo } from "@tabler/icons-react"
+import { IconInfoCircle } from "@tabler/icons-react"
 
 import { Label } from "./label"
 import { Input } from "./input"
@@ -42,7 +42,7 @@ export const WithIcon: Story = {
     <div className="flex flex-col gap-2 w-64">
       <Label htmlFor="with-icon">
         Username
-        <IconInfo className="size-3.5 text-muted-foreground" />
+        <IconInfoCircle className="size-3.5 text-muted-foreground" />
       </Label>
       <Input id="with-icon" placeholder="@handle" />
     </div>

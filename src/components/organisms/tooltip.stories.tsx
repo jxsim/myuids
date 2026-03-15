@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from "@storybook/react-vite"
-import { IconCommand, IconInfo, IconTrash } from "@tabler/icons-react"
+import { IconCommand, IconInfoCircle, IconTrash } from "@tabler/icons-react"
 
 import { Button } from "@/components/atoms/button"
 import { Kbd, KbdGroup } from "@/components/atoms/kbd"
@@ -120,7 +120,7 @@ export const OnIconButton: Story = {
       <Tooltip>
         <TooltipTrigger asChild>
           <Button variant="ghost" size="icon-sm" aria-label="More information">
-            <IconInfo />
+            <IconInfoCircle />
           </Button>
         </TooltipTrigger>
         <TooltipContent>

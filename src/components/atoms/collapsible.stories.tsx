@@ -1,6 +1,6 @@
 import { useState } from "react"
 import type { Meta, StoryObj } from "@storybook/react-vite"
-import { IconChevronDown, IconChevronsUpDown } from "@tabler/icons-react"
+import { IconChevronDown, IconSelector } from "@tabler/icons-react"
 
 import { Button } from "./button"
 import { Collapsible, CollapsibleContent, CollapsibleTrigger } from "./collapsible"
@@ -24,7 +24,7 @@ export const Playground: Story = {
       <CollapsibleTrigger asChild>
         <Button variant="outline" className="w-full justify-between">
           Toggle content
-          <IconChevronsUpDown className="size-4" />
+          <IconSelector className="size-4" />
         </Button>
       </CollapsibleTrigger>
       <CollapsibleContent className="mt-2 rounded-lg border p-3 text-sm text-muted-foreground">
@@ -42,7 +42,7 @@ export const DefaultOpen: Story = {
       <CollapsibleTrigger asChild>
         <Button variant="ghost" className="w-full justify-between">
           <span className="font-medium">@shadcn starred 3 repos</span>
-          <IconChevronsUpDown className="size-4 text-muted-foreground" />
+          <IconSelector className="size-4 text-muted-foreground" />
         </Button>
       </CollapsibleTrigger>
       <CollapsibleContent className="flex flex-col gap-1 mt-1">
