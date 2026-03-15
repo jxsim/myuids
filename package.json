@@ -1,5 +1,5 @@
 {
-  "name": "myuids",
+  "name": "@jxsim/myuids",
   "version": "0.1.0",
   "type": "module",
   "description": "A classy React component library built with Tailwind v4 and Radix UI",
@@ -19,6 +19,13 @@
       "style": "./src/styles/tokens.css"
     },
     "./styles/tokens.css": "./src/styles/tokens.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jxsim/myuids.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   },
   "sideEffects": [
     "**/*.css",
