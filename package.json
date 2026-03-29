@@ -1,6 +1,6 @@
 {
   "name": "@jxsim/myuids",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "type": "module",
   "description": "A classy React component library built with Tailwind v4 and Radix UI",
   "files": [
@@ -84,17 +84,39 @@
     "@fontsource-variable/inter": ">=5.0.0"
   },
   "peerDependenciesMeta": {
-    "cmdk": { "optional": true },
-    "date-fns": { "optional": true },
-    "embla-carousel-react": { "optional": true },
-    "input-otp": { "optional": true },
-    "next-themes": { "optional": true },
-    "react-day-picker": { "optional": true },
-    "react-resizable-panels": { "optional": true },
-    "recharts": { "optional": true },
-    "sonner": { "optional": true },
-    "vaul": { "optional": true },
-    "@fontsource-variable/inter": { "optional": true }
+    "cmdk": {
+      "optional": true
+    },
+    "date-fns": {
+      "optional": true
+    },
+    "embla-carousel-react": {
+      "optional": true
+    },
+    "input-otp": {
+      "optional": true
+    },
+    "next-themes": {
+      "optional": true
+    },
+    "react-day-picker": {
+      "optional": true
+    },
+    "react-resizable-panels": {
+      "optional": true
+    },
+    "recharts": {
+      "optional": true
+    },
+    "sonner": {
+      "optional": true
+    },
+    "vaul": {
+      "optional": true
+    },
+    "@fontsource-variable/inter": {
+      "optional": true
+    }
   },
   "dependencies": {
     "@base-ui/react": "^1.2.0",
