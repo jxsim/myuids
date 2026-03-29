@@ -15,6 +15,22 @@
       "types": "./dist/lib/index.d.ts",
       "import": "./dist/lib/index.js"
     },
+    "./atoms": {
+      "types": "./dist/components/atoms/index.d.ts",
+      "import": "./dist/components/atoms/index.js"
+    },
+    "./molecules": {
+      "types": "./dist/components/molecules/index.d.ts",
+      "import": "./dist/components/molecules/index.js"
+    },
+    "./organisms": {
+      "types": "./dist/components/organisms/index.d.ts",
+      "import": "./dist/components/organisms/index.js"
+    },
+    "./templates": {
+      "types": "./dist/components/templates/index.d.ts",
+      "import": "./dist/components/templates/index.js"
+    },
     "./styles": {
       "style": "./src/styles/tokens.css"
     },
@@ -42,7 +58,7 @@
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "prepublishOnly": "pnpm run build:lib"
+    "prepublish": "pnpm run build:lib"
   },
   "peerDependencies": {
     "react": ">=18.0.0",
